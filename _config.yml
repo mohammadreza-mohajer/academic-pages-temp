@@ -56,6 +56,9 @@ analytics:
 include:
   - _pages
   - files
+  - blog.md
+  - research.md
+  - publications.md
 
 exclude:
   - .github
