@@ -1,11 +1,13 @@
 ---
 title: "Blog"
-layout: archive
+layout: single
 permalink: /blog/
 author_profile: true
 ---
 
-Mathematical notes, research discussions, and expository articles.
+# Mathematical Notes
+
+Research notes, expository articles, and discussions in mathematics.
 
 {% for post in site.posts %}
 
