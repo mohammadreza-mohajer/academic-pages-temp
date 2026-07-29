@@ -1,7 +1,8 @@
 ---
-layout: home
 title: "Mathematical Notes"
+layout: single
 author_profile: true
+classes: wide
 ---
 
 Welcome to my mathematical blog.
@@ -9,7 +10,6 @@ Welcome to my mathematical blog.
 I am a mathematician interested in analysis, partial differential equations, weighted Sobolev spaces, compact embedding theory, and arithmetic geometry.
 
 This website contains research notes, expository articles, and discussions of mathematical ideas.
-
 
 ## Research Interests
 
@@ -22,8 +22,7 @@ This website contains research notes, expository articles, and discussions of ma
 
 ## Latest Articles
 
-{% assign posts = site.posts %}
-{% for post in posts limit:5 %}
+{% for post in site.posts limit:5 %}
 
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
