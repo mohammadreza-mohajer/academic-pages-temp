@@ -7,20 +7,20 @@ locale: "en-US"
 title: "Mathematical Notes"
 title_separator: "-"
 name: "Mohammadreza Mohajer"
-description: "Mathematical blog on analysis, PDEs, Sobolev spaces, and arithmetic geometry."
+description: "Mathematical blog on analysis, partial differential equations, Sobolev spaces, and arithmetic geometry."
 
 url: "https://mohammadreza-mohajer.github.io"
 baseurl: "/academic-pages-temp"
 repository: "mohammadreza-mohajer/academic-pages-temp"
 
 
-# Author Information
+# Author Information (Sidebar)
 author:
   name: "Mohammadreza Mohajer"
   avatar: "profile.png"
   bio: "Mathematician working in analysis, partial differential equations, and arithmetic geometry."
-  employer: "Cape Breton University"
   location: ""
+  employer: "Cape Breton University"
   email: "Mohammadreza_Mohajer@cbu.ca"
 
   github: "mohammadreza-mohajer"
@@ -29,11 +29,10 @@ author:
   researchgate: "https://www.researchgate.net/profile/Mohammadreza-Mohajer-2"
 
 
-# Site appearance
+# Site Appearance
 breadcrumbs: false
 words_per_minute: 160
 future: true
-read_more: "disabled"
 
 comments:
   provider: false
@@ -68,7 +67,7 @@ exclude:
 encoding: "utf-8"
 
 
-# Markdown and Math Support
+# Markdown + LaTeX Support
 markdown: kramdown
 
 highlighter: rouge
@@ -79,13 +78,17 @@ kramdown:
   auto_ids: true
 
 
+# MathJax
+mathjax: true
+
+
 # Collections
 collections:
   pages:
     output: true
 
 
-# Blog posts
+# Blog Posts
 defaults:
   - scope:
       path: ""
@@ -93,6 +96,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      mathjax: true
       read_time: true
       comments: false
       share: false
@@ -127,6 +131,11 @@ plugins:
   - jemoji
 
 
+# RSS Feed
+atom_feed:
+  hide: false
+
+
 # Archives
 category_archive:
   type: liquid
@@ -137,7 +146,7 @@ tag_archive:
   path: /tags/
 
 
-# HTML compression
+# HTML Compression
 compress_html:
   clippings: all
   ignore:
