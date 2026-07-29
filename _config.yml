@@ -1,4 +1,7 @@
 # Basic Site Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
 locale: "en-US"
 
 title: "Mathematical Notes"
