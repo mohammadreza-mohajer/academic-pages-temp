@@ -1,18 +1,25 @@
 ---
 layout: home
 title: "Mathematical Notes"
+author_profile: true
 ---
 
 # Mathematical Notes
 
 Welcome to my mathematical blog.
 
-I am a mathematician interested in:
+I am a mathematician interested in analysis, partial differential equations, weighted Sobolev spaces, compact embedding theory, and arithmetic geometry.
 
-- Partial differential equations
+This website contains research notes, expository articles, and discussions of mathematical ideas.
+
+## Research Interests
+
+- Degenerate elliptic partial differential equations
 - Weighted Sobolev spaces
-- Compact embedding theory
-- p-adic analysis
-- Arithmetic geometry
+- Compact embeddings
+- Analysis on metric measure spaces
+- p-adic analysis and arithmetic geometry
 
-This website contains mathematical notes, research discussions, and expository articles.
+## Latest Articles
+
+New posts will appear below.
