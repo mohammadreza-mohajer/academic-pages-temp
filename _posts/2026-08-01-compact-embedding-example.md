@@ -11,9 +11,9 @@ tags:
 
 # Introduction
 
-Compact embeddings are one of the fundamental tools in analysis and partial differential equations.
-They allow us to extract convergent subsequences from bounded sequences and play a central role
-in proving existence results for elliptic equations.
+Compact embeddings are among the most important tools in functional analysis and partial differential equations. They allow us to obtain strong convergence from bounded sequences and play a fundamental role in existence theories for elliptic equations.
+
+<!--more-->
 
 Let $\Omega\subset\mathbb{R}^n$ be a bounded domain. A classical Sobolev embedding theorem states that
 
@@ -23,12 +23,9 @@ $$
 
 for suitable values of $p$ and $q$.
 
-However, the embedding is not always compact. The compactness depends on the geometry of the
-domain and the relationship between the exponents.
+The compactness of this embedding depends on the geometry of the domain and the relationship between the exponents.
 
----
-
-# The Rellich--Kondrachov Theorem
+## The Rellich--Kondrachov Theorem
 
 A fundamental result states that if
 
@@ -48,18 +45,15 @@ $$
 1\leq q<p^*,
 $$
 
-where the critical Sobolev exponent is
+where
 
 $$
 p^*=\frac{np}{n-p}.
 $$
 
-This means that every bounded sequence $(u_k)$ in $W^{1,p}(\Omega)$ contains a subsequence
-which converges strongly in $L^q(\Omega)$.
+This means every bounded sequence in $W^{1,p}(\Omega)$ contains a subsequence converging strongly in $L^q(\Omega)$.
 
----
-
-# Example
+## Example
 
 Consider a bounded sequence
 
@@ -73,21 +67,10 @@ $$
 \|u_k\|_{W^{1,p}(\Omega)}\leq C.
 $$
 
-By compactness, there exists a subsequence $(u_{k_j})$ and a function
-$u\in L^q(\Omega)$ such that
+Then there exists a subsequence $(u_{k_j})$ and a function $u\in L^q(\Omega)$ such that
 
 $$
 u_{k_j}\rightarrow u
 $$
 
 strongly in $L^q(\Omega)$.
-
-This compactness principle is one of the main ingredients in the analysis of degenerate elliptic
-equations.
-
----
-
-# Further Reading
-
-More advanced versions involve weighted Sobolev spaces, metric measure spaces, and degenerate
-elliptic operators.
