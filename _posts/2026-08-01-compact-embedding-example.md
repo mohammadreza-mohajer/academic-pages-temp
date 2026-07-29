@@ -10,10 +10,9 @@ tags:
 ---
 
 # Introduction
+<!--more-->
 
 Compact embeddings are among the most important tools in functional analysis and partial differential equations. They allow us to obtain strong convergence from bounded sequences and play a fundamental role in existence theories for elliptic equations.
-
-<!--more-->
 
 Let $\Omega\subset\mathbb{R}^n$ be a bounded domain. A classical Sobolev embedding theorem states that
 
